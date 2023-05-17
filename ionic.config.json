@@ -1,0 +1,7 @@
+{
+  "name": "boda",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
