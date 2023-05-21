@@ -1,10 +1,37 @@
-<ion-header no-border translucent>
+<!-- <ion-header translucent>
   <ion-toolbar color="primary">
   
-  <ion-title class="ion-text-center">Boda Adriana - Daniel</ion-title>
+  <ion-title class="ion-text-center">Adriana - Daniel</ion-title>
 
 
+
+
+  <ion-icon color="success" slot="end" name="logo-whatsapp"></ion-icon>
 
 
 </ion-toolbar>
+</ion-header> 
+-->
+
+
+<ion-header [translucent]="true">
+
+
+  <ion-toolbar>
+
+    
+
+  <ion-label slot="start" ><h2><b>Boda - A & D</b></h2> </ion-label>
+
+
+
+
+      <ion-label slot="end" class="ion-text-center"  ><h2><b>Contacto:</b></h2></ion-label>
+      <ion-button slot="end" href={{url}} color="success" shape="round" size="small" >
+        <ion-icon name="logo-whatsapp"></ion-icon>
+      </ion-button>
+  
+    
+
+  </ion-toolbar>
 </ion-header>
